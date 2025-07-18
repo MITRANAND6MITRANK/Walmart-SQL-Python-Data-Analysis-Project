@@ -1,8 +1,10 @@
-![Walmart Project Diagram](Walmart%20Project.png)
-
 # Walmart SQL + Python Data Analysis Project
 
+![Walmart Project Diagram](Walmart_Project.png)
+
 ## 📊 Project Overview
+...
+
 
 
 This end-to-end data analysis project focuses on Walmart sales data. It combines Python (Pandas) and SQL (PostgreSQL & MySQL) to clean data, engineer features, and answer real-world business questions. Ideal for showcasing data wrangling, EDA, and SQL proficiency.
