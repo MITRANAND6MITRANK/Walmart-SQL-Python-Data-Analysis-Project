@@ -1,4 +1,4 @@
-![Walmart Project Diagram](./Walmart_Project.png)
+![Project Pipeline](https://github.com/najirh/Walmart_SQL_Python/blob/main/walmart_project-piplelines.png)
 
 # Walmart SQL + Python Data Analysis Project
 
