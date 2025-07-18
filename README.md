@@ -1,123 +1,80 @@
 ![Project Pipeline](https://github.com/MITRANAND6MITRANK/Walmart-SQL-Python-Data-Analysis-Project/blob/main/Walmart_Project.png)
 
-# Walmart SQL + Python Data Analysis Project
+# 🛍️ Walmart Data Analysis Project
 
-## 📊 Project Overview
-This end-to-end data analysis project...
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-This end-to-end data analysis project focuses on Walmart sales data. It combines Python (Pandas) and SQL (PostgreSQL & MySQL) to clean data, engineer features, and answer real-world business questions. Ideal for showcasing data wrangling, EDA, and SQL proficiency.
+This project demonstrates end-to-end **retail data analysis** using **Pandas** and **PostgreSQL**, based on Walmart sales data. The goal is to solve real-world business problems such as identifying top-performing branches, customer purchase behavior, and revenue trends using SQL and Python.
 
-🔄 Project Pipeline
+---
 
-1. Environment Setup
+## 📁 Project Structure
 
-Tools: VS Code, Python, PostgreSQL, Jupyter Notebook
+| Folder       | Contents                                               |
+|--------------|--------------------------------------------------------|
+| `data/`      | Raw and cleaned datasets (CSV)                         |
+| `notebooks/` | Jupyter Notebook for Pandas-based analysis             |
+| `reports/`   | Business problem summary in PDF format                 |
+| `sql/`       | PostgreSQL queries solving analytical problems         |
+| `images/`    | Project flow diagrams or dashboards                    |
 
-Libraries: pandas, numpy, sqlalchemy, psycopg2
+---
 
-2. Kaggle API & Dataset Setup
+## 🔍 Project Highlights
 
-Used Kaggle API to download the Walmart dataset
+- Data cleaning & transformation with **Pandas**
+- Exploratory Data Analysis (EDA)
+- SQL queries using **CTEs**, **Window Functions**, **GROUP BY**, **RANK**, etc.
+- Business question solving through SQL analytics
+- Organized repo for maximum clarity and collaboration
 
-Data stored under data/
+---
 
-3. Data Cleaning (Python(PANDAS))
+## 📊 Key Business Questions Solved
 
-Removed duplicates
+1. Most popular payment method per branch
+2. Highest-rated product category per branch
+3. Busiest sales days per branch
+4. Quantity sold per payment method
+5. Average, minimum, and maximum product ratings per city
+6. Shift-wise sales grouping (Morning, Afternoon, Evening)
+7. Profit analysis by category (daily, monthly, yearly)
+8. Branch-wise revenue drop detection from previous year
 
-Fixed data types (date, price)
+---
 
-Handled missing values
+## 📂 Key Files
 
-Cleaned currency values from unit_price
+- 📘 [Notebook - Data Cleaning & Manipulation](notebooks/walmart-data-pandas.ipynb)  
+- 🧾 [PostgreSQL SQL Queries](sql/postgresql-walmart-insights.sql)  
+- 📄 [Business Problem Summary PDF](reports/Walmart%20Business%20Problems.pdf)  
+- 📊 [Cleaned Dataset](data/Walmart_Cleaned_Data.csv)  
+- 🗂️ [Raw Dataset](data/Walmart_Uncleaned.csv)  
+- 🖼️ [Project Diagram](images/Walmart_Project.png)
 
-4. Feature Engineering
+---
 
-Added total_amount = unit_price * quantity
+## 🛠️ Tools & Technologies
 
-Extracted month/year from date for time-based grouping
+- Python (Pandas, NumPy)
+- SQL (PostgreSQL)
+- Jupyter Notebook
+- Git & GitHub
+- Data Cleaning, Aggregation, Window Functions
 
-5. Data Upload to SQL
+---
 
-Used SQLAlchemy to connect and push cleaned data to PostgreSQL
+## 👤 Author
 
-Table auto-created if not exists: walmart
+**Mitranand Singh**  
+📧 Email: [mitrannandsiingh@gmail.com](mailto:mitrannandsiingh@gmail.com)  
+🔗 LinkedIn: [linkedin.com/in/mitrank-singh-6b18b0341](https://www.linkedin.com/in/mitrank-singh-6b18b0341/)
 
-6. SQL Analysis
+---
 
-Key queries used:
+## 📄 License
 
-Revenue per category and branch
+This project is licensed under the [MIT License](LICENSE).
 
-Most profitable category monthly
-
-Peak days by branch
-
-Most used payment method per branch
-
-Year-over-year performance analysis
-
-7. Business Questions Answered
-
-Which branch has the highest sales?
-
-What is the busiest day per store?
-
-Which category yields the highest monthly profit?
-
-Preferred payment method by branch?
-
-Performance comparison between 2022 and 2023?
-
-8. Documentation & Publishing
-
-Code, SQL queries, and analysis stored and explained in Jupyter Notebook
-
-Project available on GitHub
-
-📃 Project Structure
-
-|-- data/                     # Raw and cleaned data
-|-- sql_queries/              # SQL scripts used in analysis
-|-- notebooks/                # Jupyter notebooks for EDA
-|-- requirements.txt          # Python libraries list
-|-- README.md                 # Project overview
-|-- main.py                   # Script to process and upload data
-
-🔢 Tech Stack
-
-Language: Python 3.8+
-
-Databases: PostgreSQL
-
-Libraries: pandas, numpy, sqlalchemy, psycopg2
-
-Tools: VS Code, Jupyter Notebook, Git, Kaggle
-
-📊 Results & Insights
-
-City & Category Trends: Clear insights on which cities sell which categories the most
-
-Profitability: Electronics & Fashion showed highest margins
-
-Behavioral Trends: Evening hours & weekends were peak times
-
-Payment Patterns: Ewallets were most popular
-
-🖼️ Visual Project Flow
-
-
-
-🚀 Future Improvements
-
-Connect PostgreSQL to Tableau or Power BI for dashboarding
-
-Include real-time ingestion with APIs
-
-Schedule monthly updates using cron jobs
-
-📄 Acknowledgments
-
-Dataset: Kaggle - Walmart Sales Dataset
-
-Inspired by: Real Walmart case studies on operational efficiency
+> Feel free to use or modify this project for your own learning or development.  
+> **Please give credit** if you reuse any part of it in public or production projects.
