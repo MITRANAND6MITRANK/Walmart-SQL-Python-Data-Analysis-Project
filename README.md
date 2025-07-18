@@ -1,4 +1,4 @@
-![Project Pipeline](https://github.com/MITRANAND6MITRANK/Walmart-SQL-Python-Data-Analysis-Project/commit/7c5fd72d95b1a24b4aa726182132c0f1a5eab68e)
+![Project Pipeline](https://github.com/MITRANAND6MITRANK/Walmart-SQL-Python-Data-Analysis-Project/blob/main/Image_for_Project/Walmart_Project.png)
 
 # 🛍️ Walmart Data Analysis Project
 
