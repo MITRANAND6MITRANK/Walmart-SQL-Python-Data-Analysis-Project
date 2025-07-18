@@ -11,9 +11,9 @@ This end-to-end data analysis project focuses on Walmart sales data. It combines
 
 1. Environment Setup
 
-Tools: VS Code, Python, PostgreSQL/MySQL, Jupyter Notebook
+Tools: VS Code, Python, PostgreSQL, Jupyter Notebook
 
-Libraries: pandas, numpy, sqlalchemy, mysql-connector-python, psycopg2
+Libraries: pandas, numpy, sqlalchemy, psycopg2
 
 2. Kaggle API & Dataset Setup
 
@@ -21,7 +21,7 @@ Used Kaggle API to download the Walmart dataset
 
 Data stored under data/
 
-3. Data Cleaning (Python)
+3. Data Cleaning (Python(PANDAS))
 
 Removed duplicates
 
@@ -88,9 +88,9 @@ Project available on GitHub
 
 Language: Python 3.8+
 
-Databases: PostgreSQL, MySQL
+Databases: PostgreSQL
 
-Libraries: pandas, numpy, sqlalchemy, psycopg2, mysql-connector-python
+Libraries: pandas, numpy, sqlalchemy, psycopg2
 
 Tools: VS Code, Jupyter Notebook, Git, Kaggle
 
